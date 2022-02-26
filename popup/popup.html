@@ -1,10 +1,16 @@
 <!DOCTYPE html>
 
 <html>
-    <body>
-        <h1 id="title">Okay lisa</h1>
-        <input id="search" type="text">
+    <head>
+        <link rel="stylesheet" href="popup.css">
+    </head>
+    <body style="width: 300px; height: 400px; background-color: aquamarine;">
+        <h1>Search MDN Docs</h1>
+        <div class="typeahead-container">
+            <input class="typeahead-search" type="text" placeholder="Enter search term...">
+        </div>
         <script src="jquery.js"></script>
+        <script src="jquery-typeahead.js"></script>
         <script src="mdn-data.js"></script>
         <script src="popup.js"></script>
     </body>

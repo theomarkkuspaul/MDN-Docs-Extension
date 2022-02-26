@@ -1,0 +1,51 @@
+h1 {
+    text-align: center;
+}
+
+.typeahead-container {
+    text-align: center;
+}
+
+.typeahead-container .empty-message {
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.typeahead-container .typeahead-search {
+    width: 260px;
+    display: block;
+    margin: auto;
+    border: 2px solid #1b1b1b;
+    color: #1b1b1b;
+    padding: 6px 12px;
+}
+
+.tt-menu {
+    width: 422px;
+    margin: 12px 0;
+    padding: 8px 0;
+
+    background-color: #fff;
+    border: 2px solid #1b1b1b;
+    border-top-color: rgb(27, 27, 27);
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-radius: 0 0 6px 6px;
+    border-top: 0;
+    box-shadow: 0 2px 8px 0 #8a8a8a;
+    left: 0;
+    position: absolute;
+    top: 42px;
+    width: 100%;
+    z-index: 300;
+}
+
+.tt-suggestion {
+    padding: 6px;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.tt-cursor {
+    background-color: #f4f4f4;
+}

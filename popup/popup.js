@@ -47,8 +47,19 @@ $(document).ready(() => {
         }
     });
 
+    // Close the popup when the user has selected an item
     $('.typeahead-container .typeahead-search').on('typeahead:select', (_event, suggestion) => {
         browser.tabs.create({ url: mdnBaseURL + suggestion.url});
         window.close();
     });
+
+    // Expand the popup when a user goes to type
+    $('.typeahead-container .typeahead-search').on('typeahead:active', () => $('body').height('400px'));
+
+    $('.typeahead-container .typeahead-search').on('typeahead:close', (_event, suggestion) => {
+        $('body').height('200px');
+    })
+
+    // Clear typeahead search box
+    $('.typeahead-container button').on('click', () => $('.typeahead-container .typeahead-search').typeahead('val', ''))
 })

@@ -6,6 +6,11 @@ h1 {
     text-align: center;
 }
 
+.typeahead-container button {
+    height: 100%;
+    border: 2px solid #1b1b1b;
+}
+
 .typeahead-container .empty-message {
     padding: 5px 10px;
     text-align: center;

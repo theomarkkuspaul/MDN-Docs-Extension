@@ -49,3 +49,8 @@ h1 {
 .tt-cursor {
     background-color: #f4f4f4;
 }
+
+.tt-menu {
+    max-height: 250px;
+    overflow-y: auto;
+}

@@ -1,14 +1,14 @@
 {
 
     "manifest_version": 2,
-    "name": "Mozilla Developer Network Docs",
+    "name": "MDN Docs",
     "version": "1.0",
-    "description": "Quickly and efficiently reference the Mozilla Developer Network (MDN) docs.",
+    "description": "Quickly and efficiently reference the MDN docs.",
     "icons": {
-      "48": "icons/mozilla-developer-network-icon-48.png"
+      "48": "icons/mdn-icon-48.png"
     },
     "browser_action": {
-        "default_icon": "icons/mozilla-developer-network-icon-48.png",
+        "default_icon": "icons/mdn-icon-48.png",
         "default_title": "MDN Docs",
         "default_popup": "popup/popup.html",
         "browser_style": true
